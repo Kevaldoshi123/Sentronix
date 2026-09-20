@@ -14,7 +14,8 @@
 
 ---
 
-[![Release](https://img.shields.io/badge/Release-v3.0.0--PRO-8B5CF6?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/AaryanThummar/Sentronix/releases)
+[![Release](https://img.shields.io/badge/Release-v3.0.0--PRO-8B5CF6?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/Kevaldoshi123/Sentronix/releases)
+[![Project Owner](https://img.shields.io/badge/Project_Owner-Keval_Doshi-9333EA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kevaldoshi123)
 [![Posture Grade](https://img.shields.io/badge/Security_Posture-GRADE_A-10B981?style=for-the-badge&logo=shieldcheck&logoColor=white)](#-security-posture--compliance)
 [![Core Engine](https://img.shields.io/badge/Backend-FastAPI_%7C_Python_3.11-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Frontend](https://img.shields.io/badge/Frontend-React_18_%7C_Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://vitejs.dev)
@@ -22,6 +23,11 @@
 [![Adversary](https://img.shields.io/badge/MITRE-ATT%26CK_Caldera-EF4444?style=for-the-badge&logo=hackthebox&logoColor=white)](https://attack.mitre.org)
 [![Extension](https://img.shields.io/badge/Extension-Manifest_V3_Active-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white)](#-browser-extension-v3)
 [![License](https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
+
+<br/>
+
+**👑 Project Owner & Lead Developer:** [**Keval Doshi**](https://github.com/Kevaldoshi123)  
+*(Autonomous AI Purple-Team & Cloud DevSecOps Architect)*
 
 </div>
 
@@ -31,7 +37,7 @@
 
 > *"Traditional vulnerability scanners tell you that you are broken; SentroniX emulates the adversary, validates the defense, writes the patch with AI, and opens the Pull Request."*
 
-**SentroniX Version 3.0 PRO** is an end-to-end, enterprise-grade **Purple Team AI Ecosystem**. It fuses offensive security operations (Red Team payload fuzzing, MITRE ATT&CK atomic strikes, Caldera APT campaigns) with defensive resilience (Blue Team hot-reloading WAF policy switchboards, real-time packet interception, Steg malware extraction), powered by an **autonomous Google Gemini AI Remediation Engine** that generates unified Git diffs and automated GitHub Pull Requests.
+**SentroniX Version 3.0 PRO** is an end-to-end, enterprise-grade **Purple Team AI Ecosystem** developed by Project Owner **Keval Doshi**. It fuses offensive security operations (Red Team payload fuzzing, MITRE ATT&CK atomic strikes, Caldera APT campaigns) with defensive resilience (Blue Team hot-reloading WAF policy switchboards, real-time packet interception, Steg malware extraction), powered by an **autonomous Google Gemini AI Remediation Engine** that generates unified Git diffs and automated GitHub Pull Requests.
 
 Version 3 introduces **Active Defense Browser Extension V3** (client-side DOM webmail phishing inspection and download steganography shields) alongside a **Zero-Docker Portable Standalone Engine** that runs anywhere with a single double-click.
 
@@ -234,11 +240,16 @@ Sentronix/
 
 ---
 
-## 👥 Authors & Academic Credits
+## 👥 Project Leadership & Authors
 
+### 👑 Project Owner & Lead Developer
+- **Keval Doshi** — Autonomous AI Purple-Team & Cloud DevSecOps Architect, System Security Engineer & Full-Stack Core
+  - **GitHub:** [@Kevaldoshi123](https://github.com/Kevaldoshi123)
+  - **Evaluation / Fork Repository:** [https://github.com/Kevaldoshi123/Sentronix](https://github.com/Kevaldoshi123/Sentronix)
+
+### 🤝 Academic Credits & Contributors
 - **Aaryan Thummar** — Lead Architect & Purple Team Engineer
-- **Keval Doshi** — System Security Engineer & Full-Stack Core
-- **Project Repository:** [https://github.com/AaryanThummar/Sentronix](https://github.com/AaryanThummar/Sentronix)
+  - **Upstream Repository:** [https://github.com/AaryanThummar/Sentronix](https://github.com/AaryanThummar/Sentronix)
 
 ---
 
