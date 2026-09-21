@@ -19,13 +19,17 @@ if %ERRORLEVEL% NEQ 0 (
     exit /b 1
 )
 
-:: 2. Check Backend Virtualenv
-if not exist "sentronix-platform\backend\venv" (
-    echo [*] Initializing standalone environment...
-    python -m venv sentronix-platform\backend\venv
-    echo [*] Installing required dependencies...
-    sentronix-platform\backend\venv\Scripts\python.exe -m pip install --upgrade pip
-    sentronix-platform\backend\venv\Scripts\python.exe -m pip install -r sentronix-platform\backend\requirements.txt
+:: 2. Locate Backend Directory & Python Virtualenv
+if exist "backend\venv\Scripts\python.exe" (
+    set "BACKEND_DIR=%~dp0backend"
+    set "VENV_PY=%~dp0backend\venv\Scripts\python.exe"
+) else if exist "sentronix-platform\backend\venv\Scripts\python.exe" (
+    set "BACKEND_DIR=%~dp0sentronix-platform\backend"
+    set "VENV_PY=%~dp0sentronix-platform\backend\venv\Scripts\python.exe"
+) else (
+    echo [ERROR] Backend virtual environment not found!
+    pause
+    exit /b 1
 )
 
 :: 3. Launching SentroniX Single-Port Unified Server
@@ -37,7 +41,7 @@ echo.
 start "" timeout /t 2 /nobreak >nul & start http://localhost:8000/
 
 :: Start Uvicorn
-cd sentronix-platform\backend
-.\venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+cd /d "%BACKEND_DIR%"
+"%VENV_PY%" -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 pause
